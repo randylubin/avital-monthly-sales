@@ -128,7 +128,7 @@ with open('peek-sales.csv', 'rU') as f:
 
         peekFees = 0
         if not noPeekFees:
-            peekFees = guests * 1.00
+            peekFees = Total * 0.01
 
         # TODO Manually Booked Private: the gap = the Peek Fee - delete Peek Fee
 
